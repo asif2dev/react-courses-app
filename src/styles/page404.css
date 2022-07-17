@@ -1,0 +1,20 @@
+
+:root{
+    --color_header: #FF3D81;
+    --color_h3: #4C3CE3;
+}
+[class="dark-content"]{
+    /* --color_header: #FF3D81; */
+    /* --color_h3: #FF3D81; */
+}
+.page404{
+    min-height: 95vh;
+    display: grid;
+    align-items: center;
+}
+.page404 h2{
+    color: var(--color_header);
+}
+.page404 h3{
+    color: var(--color_h3);
+}
