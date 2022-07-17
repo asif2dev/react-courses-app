@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    flex-direction: column;
+    background-color: #4646f6;
+}
+.copyright{
+    color: rgb(127, 255, 253);
+    font-weight: 600;
+    align-self: center;
+}
+.footerLinks{
+    padding-top:10px;
+}
+.footerLinks a{
+    font-weight: 500;
+    color: rgb(215, 215, 215);
+    padding: 0 10px;
+}

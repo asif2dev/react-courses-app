@@ -1,0 +1,47 @@
+:root{
+    --color_bg:white;
+    --color_txt: inherit
+}
+[class='dark-content']{
+    --color_txt: white;
+    --color_bg: #1E1E1E;
+}
+.aboutUs{
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    padding:50px;
+    background-color: var(--color_bg)
+}
+.about_img {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 390px;
+    max-width: 389px;
+    height: 390px;
+}
+.aboutText h2{
+    color: var(--color_txt);
+    margin-top:20px
+}
+.aboutDetail {
+    color: rgb(194, 194, 194);
+    font-size: 18px;
+    line-height: 1.7rem;
+    padding: 106px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1023px){
+    .aboutUs{
+        flex-direction: column;
+    }
+    .aboutDetail {
+        padding: 0;
+    }
+    .about_img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+}

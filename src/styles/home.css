@@ -1,0 +1,62 @@
+:root{
+    --bg_Color: #F4FAFC;
+
+}
+[class="dark-content"]{
+    --bg_Color: #121212;
+}
+.Home{
+    min-height: 92vh;
+    background: var(--bg_Color);
+}
+
+.home_header{
+    margin-top: 0;
+    padding-top: 2.5rem;
+    color: rgb(83, 83, 83);
+    font-family: cursive;
+    color: #4c3ce3;}
+
+.homeContent{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1023px){
+    .homeContent{
+        flex-direction: column;
+    }
+    .homeContent img{
+        width: 93%;
+    }
+}
+.homeContent h2{
+    font-size: 3.5rem;
+    color: #727272;
+    color: #ff3d81;
+    font-family: cursive;
+}
+.light{
+    color: #4c3ce3;
+}
+
+.speed{
+    color: #5ed4be;
+}
+
+.explore{
+    background: #ff3d81;
+    color: white;
+    margin-top: 28px !important;
+    text-decoration: none;
+    padding: 16px 18px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.explore:hover{
+    transition: 2s ease-in-out;
+    transform: scale(1.3)
+}
