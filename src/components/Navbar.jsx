@@ -13,6 +13,8 @@ function Navbar() {
             <div className="navLinks">
                 <Link to="/" >Home</Link>
                 <Link to="/courses" >Courses</Link>
+                <Link to="/users" >Users</Link>
+                <Link to="/pages" >Pages</Link>
                 <Link to="/about" >About</Link>
                 <ThemeSwitcher />
             </div>

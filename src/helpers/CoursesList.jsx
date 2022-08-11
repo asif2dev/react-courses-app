@@ -35,9 +35,9 @@ export const CoursesList = [
         teacher: "Nadeem Adnan"
     },
     {
-        title: "Vue",
+        title: "Svelte",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, laudantium! amet consectetur adipisicing elit lorem.",
-        price: 50,
+        price: 20,
         img: vueLogo,
         teacher: "Furqan Aslam"
     },

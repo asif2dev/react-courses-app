@@ -14,7 +14,7 @@
     background-color: var(--color_bg)
 }
 .about_img {
-    border: 1px solid rgb(194, 194, 194);
+    border: 6px dotted #FF3D81;
     border-radius: 390px;
     max-width: 389px;
     height: 390px;
